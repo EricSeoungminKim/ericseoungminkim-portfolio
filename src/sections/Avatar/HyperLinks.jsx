@@ -2,8 +2,8 @@ import styles from "./Avatar.module.css";
 import linkedInIcon from "../../assets/linkedIn.svg";
 import githubLight from "../../assets/githubLight.svg";
 import githubDark from "../../assets/githubDark.svg";
-import devpostLight from "../../assets/devPostLight.svg";
-import devpostDark from "../../assets/devPostDark.svg";
+import devpostLight from "../../assets/devpostLight.svg";
+import devpostDark from "../../assets/devpostDark.svg";
 import instagramIcon from "../../assets/instagram.svg";
 import { useTheme } from "../../common/ThemeContext";
 
