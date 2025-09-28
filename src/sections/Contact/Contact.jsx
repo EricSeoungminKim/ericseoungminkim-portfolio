@@ -7,7 +7,7 @@ function Contact() {
       <h1>Wanna Work Together?</h1>
       <a
         className="py-3 text-base"
-        href="mailto:seoungminics@gmail.com"
+        href="mailto:seoungmincs@gmail.com"
         target="_blank"
         referrerpolicy="no-referrer-when-downgrade"
       >
