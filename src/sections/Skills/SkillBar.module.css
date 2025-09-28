@@ -1,0 +1,41 @@
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  padding: 15px;
+  gap: 10px;
+  border-radius: 12px;
+  background-color: var(--card-bg, rgba(255, 255, 255, 0.04));
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: blur(6px);
+}
+
+.skillItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+}
+
+.iconWrapper {
+  font-size: 28px;
+}
+
+.progressWrapper {
+  width: 60px;
+  height: 60px;
+}
+
+.skillLabel {
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: var(--text-color, #333);
+}
+
+.categoryLabel {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted, #999);
+  text-align: center;
+}

@@ -1,0 +1,61 @@
+/* Skills Section Container */
+.container {
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Each grouped skill section */
+.skillSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+}
+
+/* Skill Category Title */
+.skillCategory {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-color, #333);
+  text-align: center;
+}
+
+/* Grid layout for SkillBar items */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(60px, 1fr));
+  gap: 10px;
+  width: 100%;
+  max-width: 1000px;
+  justify-items: center;
+}
+
+@media (min-width: 600px) {
+  .container {
+    padding: 40px 10px;
+  }
+
+  .skillCategory {
+    font-size: 24px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  @media (width>= 1000px) {
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 50px;
+    }
+
+    .skillCategory {
+      font-size: 30px;
+    }
+  }
+}
